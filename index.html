@@ -1,26 +1,21 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Wendy Maldonado - The Software Developer</title>
     <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -43,17 +38,17 @@
             color: #000;
         }
 
+       .prog {
+            font-size: 3em;
+        }
         .logo {
             max-width: 50px;
             height: auto;
         }
     </style>
-    
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
 </head>
-
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
@@ -66,7 +61,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!--<a class="navbar-brand topnav" href="#home">Wendy Maldonado</a>-->
-                <img src="img/wmlogo.png" class="logo"/>
+                <a href="#home"><img src="img/wmlogo.png" class="logo" /></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -75,7 +70,7 @@
                         <a href="#work">Recent Work</a>
                     </li>
                     <li>
-                        <a href="#services">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
@@ -87,176 +82,172 @@
         <!-- /.container -->
     </nav>
 
-
     <!-- Header -->
     <a name="home"></a>
-    <div class="intro-header">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <img src="img/selfie.jpg" class="img-circle avatar" />
-                        <h1>Wendy Maldonado</h1>
-                        <h3>Software Developer</h3>
-                        <hr class="intro-divider">
-                        <i class="fa fa-2x fa-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="fa fa-2x fa-linkedin-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="fa fa-2x fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="fa fa-2x fa-envelope-o"></i>
+        <div class="intro-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="intro-message">
+                            <img src="img/selfie.jpg" class="img-circle avatar" />
+                            <h1>Wendy Maldonado</h1>
+                            <h3>Software Developer</h3>
+                            <hr class="intro-divider">
+                            <a href="https://github.com/wendyconditions"><i class="fa fa-2x fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://www.linkedin.com/in/wendy-maldonado-59112b133/"><i class="fa fa-2x fa-linkedin-square"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://twitter.com/thetechnewb"><i class="fa fa-2x fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="mailto:wendymaldonado.la@gmail.com"><i class="fa fa-2x fa-envelope-o"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-
+            <!-- /.container -->
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
-	<a name="work"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row text-center">
-                <h1>Recent Work</h1><br /><br />
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">BLAK Wealth<br>by BLAK Fintech</h2>
-                    <p class="lead">The BLAK Wealth platform serves as a Social Impact Initiative by providing access to financial literacy and entrepreneurship education. </p>
-                    <img src="img/angular.png" />
-                    <img src="img/csharp-logo.jpg" />
-                    <img src="img/sql-logo.png" />
+        <!-- /.intro-header -->
+        <!-- Page Content -->
+    <a name="work"></a>
+        <div class="content-section-a">
+            <div class="container">
+                <div class="row text-center">
+                    <h1>Recent Work</h1><br />
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
-                </div>
-            </div>
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">BLAK Wealth<br>by BLAK Fintech</h2>
+                        <p class="lead">The BLAK Wealth platform serves as a Social Impact Initiative by providing access to financial literacy and entrepreneurship education. </p>
+                        
+                        <i class="devicon-dot-net-plain-wordmark prog "></i>
+                        <i class="devicon-angularjs-plain-wordmark prog "></i>
+                        <i class="devicon-csharp-plain-wordmark prog"></i>
+                        <i class="devicon-redis-plain-wordmark prog"></i>
+                        <i class="devicon-d3js-plain prog"></i>
+                        <i class="devicon-bootstrap-plain-wordmark prog"></i>
+                        <i class="devicon-javascript-plain prog"></i>
+                        <i class="devicon-css3-plain-wordmark prog"></i>
+                        <i class="devicon-html5-plain-wordmark prog"></i>
 
-        </div>
-        <!-- /.container -->
 
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Samy's Camera</h2>
-                    <p class="lead">Samy's Camera is an online wholesaler of professional photography and video equipment. I was part of the team tasked to help with the redesign which included making the site fully responsive and having a mobile friendly shopping experience. All web property was managed through a Content Management System.</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="img/bwscreen.png" alt="">
+                    </div>
                 </div>
             </div>
-
+            <!-- /.container -->
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Open Mic Night<br>by Desiree Guerra</h2>
-                    <p class="lead">Desiree needed a fully responsive website for her upcoming art show. She wanted the site to focus mainly on the event information where guests can refer and reserve their spot for the show. </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+        <!-- /.content-section-a -->
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Samy's Camera</h2>
+                        <p class="lead">Samy's Camera is an online wholesaler of professional photography and video equipment. I was part of the team tasked to help with the redesign which included making the site fully responsive and having a mobile friendly shopping experience. All web property was managed through a Content Management System.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img class="img-responsive" src="img/samyscreens.jpg" alt="Samy's Website'">
+                    </div>
                 </div>
             </div>
-
+            <!-- /.container -->
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Reach out! I'd love to hear from you</h2>
-                </div>
-                <div class="col-lg-6">
-                    <form action="https://formspree.io/wendymaldonado.la@gmail.com" method="post">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Name</label>
-                            <input type="text" class="form-control" name="name" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" name="email" placeholder="Your Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea rows="5" class="form-control" name="message" placeholder="Message"></textarea>
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox"> Check me out
-                            </label>
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
+        <!-- /.content-section-b -->
+        <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Open Mic Night<br>by Desiree Guerra</h2>
+                        <p class="lead">Desiree needed a fully responsive website for her upcoming art show. She wanted the site to focus mainly on the event information where guests can refer and reserve their spot for the show. </p>
+                        <i class="devicon-bootstrap-plain-wordmark prog "></i>
+                        <i class="devicon-javascript-plain prog "></i>
+                        <i class="devicon-jquery-plain-wordmark prog "></i>
+                        <i class="devicon-html5-plain-wordmark prog "></i>
+                        <i class="devicon-css3-plain-wordmark prog "></i>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="img/dezscreens3.png" style="max-height:600px" alt="">
+                    </div>
                 </div>
             </div>
-
+            <!-- /.container -->
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#home">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#work">Recent Work</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Wendy Maldonado 2017. All Rights Reserved</p>
+        <!-- /.content-section-a -->
+        <a name="contact"></a>
+        <div class="banner">
+            <div class="container" id="section2">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2>Reach out! Let's chat.</h2>
+                        <br />
+                        <hr class="intro-divider pull-left" />
+                        <br /><br />
+                        <br />
+                        <h2>Looking to hire?</h2>
+                        <br />
+                        <form method="get" action="img/Resume/WendyMaldonado.pdf">
+                            <button type="submit" class="btn btn-default">Download my resume</button>
+                        </form>
+                        <br />
+                        <br />
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="https://formspree.io/wendymaldonado.la@gmail.com" method="post">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control" name="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" name="email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea rows="5" class="form-control" name="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Check me out
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
+            <!-- /.container -->
         </div>
-    </footer>
-
+        <!-- /.banner -->
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#work">Recent Work</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <p class="copyright text-muted small">Copyright &copy; Wendy Maldonado 2017. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
 </body>
-
 </html>
