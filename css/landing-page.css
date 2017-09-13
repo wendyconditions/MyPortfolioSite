@@ -1,7 +1,6 @@
 /*
- * Start Bootstrap - Landing Page (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Copyright 2017 Wendy Maldonado
+ * WendyConditions.com CSS
  */
 
 body,
@@ -28,6 +27,30 @@ h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
+}
+
+.avatar {
+    max-width: 175px;
+    border: 2px solid white;
+}
+
+.masthead {
+    background: url(img/cityimage.jpg) repeat-x center top fixed;
+    padding-top: 1000px;
+    max-width: 2500px;
+}
+
+i {
+    color: #000;
+}
+
+.prog {
+    font-size: 3em;
+}
+
+.logo {
+    max-width: 50px;
+    height: auto;
 }
 
 .intro-header {
@@ -60,12 +83,24 @@ h6 {
 }
 
 @media(max-width:767px) {
+    .avatar {
+        margin-top: -80px;
+    }
+
     .intro-message {
         padding-bottom: 15%;
     }
 
     .intro-message > h1 {
         font-size: 3em;
+        color: #000;
+        text-shadow:none!important;
+        padding-top: 45px;
+    }
+
+    .intro-header {
+        color: #000;
+        text-shadow: none!important;
     }
 
     ul.intro-social-buttons > li {
