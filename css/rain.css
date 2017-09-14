@@ -1,0 +1,11 @@
+canvas {
+  margin: 0 auto;
+  display: block;
+  border-left: 0;
+  border-right: 0;
+}
+.glitter {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

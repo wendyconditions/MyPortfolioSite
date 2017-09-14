@@ -12,6 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/rain.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -79,7 +80,8 @@
         </div>
         <!-- /.container -->
     </div>
-    <!-- /.intro-header -->
+    <!-- End Header -->
+
     <!-- Page Content -->
     <a name="work"></a>
     <div class="content-section-a">
@@ -104,7 +106,6 @@
                     <i class="devicon-css3-plain-wordmark prog"></i>
                     <i class="devicon-html5-plain-wordmark prog"></i>
 
-
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/bwscreen.png" alt="">
@@ -113,11 +114,12 @@
         </div>
         <!-- /.container -->
     </div>
+
     <!-- /.content-section-a -->
     <div class="content-section-b">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Samy's Camera</h2>
@@ -130,6 +132,7 @@
         </div>
         <!-- /.container -->
     </div>
+
     <!-- /.content-section-b -->
     <div class="content-section-a">
         <div class="container">
@@ -152,6 +155,34 @@
         </div>
         <!-- /.container -->
     </div>
+
+    <!-- About Me Header -->
+    <a name="about"></a>
+    <div class="content-section-b blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 white">
+                    <canvas id="mainCanvas" class="glitter"></canvas>
+                    <h2 class="section-heading">Do you believe in unicorns?</h2>
+                    <h3>cuz you're about to meet one...</h3>
+                    <p class="lead">
+                        They say developers are only proficient and interested in <em>either</em> front-end or back-end. Well I'm here to tell you that I am that special unicorn that can program <em>both</em>.
+                        I'm a Full Stack Developer based in Los Angeles. I am passionate about technology. I enjoy creating applications from start to finish - from client side to database. My goals are to make the web useful, build amazing applications, adhere to code standards so it makes everyone's life a little easier, and of course have fun and not take life too seriously.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-6 ">
+                    <i class="devicon-photoshop-plain prog white"></i>
+                    <i class="devicon-illustrator-plain prog white"></i>
+                    <i class="devicon-visualstudio-plain prog white"></i>
+                    <i class="devicon-git-plain-wordmark prog white"></i>
+                    <i class="devicon-slack-plain-wordmark prog white"></i>
+                    <i class="devicon-trello-plain-wordmark prog white"></i>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+
     <!-- /.content-section-a -->
     <a name="contact"></a>
     <div class="banner">
@@ -198,6 +229,7 @@
         <!-- /.container -->
     </div>
     <!-- /.banner -->
+
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -213,6 +245,10 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
@@ -221,9 +257,14 @@
             </div>
         </div>
     </footer>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Glitter rain effect JavaScripts -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js'></script>
+    <script src="js/rain.js"></script>
+
 </body>
 </html>

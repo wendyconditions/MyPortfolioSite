@@ -29,6 +29,11 @@ h6 {
     font-weight: 400;
 }
 
+
+.blue {
+    background: #1D495E;
+}
+
 .avatar {
     max-width: 175px;
     border: 2px solid white;
@@ -42,6 +47,10 @@ h6 {
 
 i {
     color: #000;
+}
+
+.white {
+    color:white;
 }
 
 .prog {
@@ -83,6 +92,10 @@ i {
 }
 
 @media(max-width:767px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
     .avatar {
         margin-top: -80px;
     }
