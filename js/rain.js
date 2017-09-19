@@ -32,7 +32,7 @@ const mq = window.matchMedia("(max-width: 575px)");
 
 if (mq.matches) {
     canvas.width = 350;
-    canvas.height = 400;
+    canvas.height = 350;
 } else {
     canvas.width = 1200;
     canvas.height = 300;
