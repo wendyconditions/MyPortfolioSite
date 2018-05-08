@@ -3466,7 +3466,7 @@
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
-			-webkit-backface-visibility: hidden;
+			
 		}
 
 			#banner > .inner .image {
@@ -4008,7 +4008,17 @@
 			float: right;
 			width: calc(100% - 35%);
 		  }
+		  .resume {
+			  font-size: 17px;
+			  box-shadow: none;
+			  text-transform: none;
+			  padding: 0px 0px;
+			  font-weight: normal;
+			  letter-spacing: normal;
+			  font-family: "Source Sans Pro", Helvetica, sans-serif;
+		  }
 
+		  
 
 		 @media(max-width:767px) {
 			.img-circle {
