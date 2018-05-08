@@ -3466,6 +3466,7 @@
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
+			-webkit-backface-visibility: hidden;
 		}
 
 			#banner > .inner .image {
@@ -3987,4 +3988,70 @@
 			transform: none;
 			opacity: 1;
 			visibility: visible;
+		}
+
+
+		/* custom css wendyconditions */
+		.img-circle{
+			border-radius: 50%;
+			border: 2px solid white;
+		}
+
+		#parent {
+			display: flex;
+		  }
+		  #narrow {
+			float: left;
+			width: 35%;
+		  }
+		  #wide {
+			float: right;
+			width: calc(100% - 35%);
+		  }
+
+
+		 @media(max-width:767px) {
+			.img-circle {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 75%;
+			}
+			#parent {
+			display: flex;
+		  }
+
+		  #narrow {
+			width: 100%;
+			display: inline-block;
+			
+		  }
+		  #wide {
+			padding-top: 15px;
+			width: 100%;
+			display: inline-block;
+		  }
+		}
+
+		@media(max-width:1199px) {
+			.img-circle {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 25%;
+			}
+			#parent {
+			display: flex;
+		  }
+
+		  #narrow {
+			width: 100%;
+			display: inline-block;
+			
+		  }
+		  #wide {
+			padding-top: 15px;
+			width: 100%;
+			display: inline-block;
+		  }
 		}
