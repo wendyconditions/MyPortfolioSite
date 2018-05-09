@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -3403,7 +3404,6 @@
 		}
 
 /* Banner */
-
 	#banner {
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3427,6 +3427,7 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+		
 	}
 
 		#banner:after {
@@ -3460,7 +3461,7 @@
 
 		#banner > .inner {
 			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
-			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
+			-webkit-transition: opacity 1.5s ease, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
 			-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
 			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
 			padding: 0 !important;
@@ -4017,13 +4018,15 @@
 			  letter-spacing: normal;
 			  font-family: "Source Sans Pro", Helvetica, sans-serif;
 		  }
-
-		 @media(max-width:767px) {
+		  
+		
+		  /* tablet */
+		@media(max-width: 768px) {
 			.img-circle {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				width: 75%;
+				width: 25%;
 			}
 			#parent {
 			display: flex;
@@ -4041,12 +4044,14 @@
 		  }
 		}
 
-		@media(max-width:1199px) {
+
+		/* phone */
+		@media(max-width: 414px) {
 			.img-circle {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				width: 25%;
+				width: 65%;
 			}
 			#parent {
 			display: flex;
