@@ -4003,6 +4003,15 @@
 
 
 		/* custom css wendyconditions */
+		section#blog-section {
+			background: #fff;
+			color: #000;
+		}
+
+		section#blog-section h2{
+			color: #000;
+		}
+
 		.img-circle{
 			border-radius: 50%;
 			border: 2px solid white;
@@ -4027,6 +4036,16 @@
 			  font-weight: normal;
 			  letter-spacing: normal;
 			  font-family: "Source Sans Pro", Helvetica, sans-serif;
+			  border-bottom: dotted 1px;
+			  height: 2.5em
+		  }
+
+		  button.resume:hover {
+			  box-shadow: none;
+		  }
+
+		  input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select, textarea {
+			  background: #fff;
 		  }
 		  
 		
