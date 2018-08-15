@@ -6,7 +6,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/cardStyle.css" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<link rel="icon" type="image/x-icon" href="images/favicon.png">
@@ -177,20 +179,24 @@
 			<section id="blog-section">
 				<div class="inner">
 					<header class="major">
-						<h2>@wendymaldonado.la</h2>
+						<h2>Recent articles</h2>
 					</header>
 					<div class="parent">
-						<div>I have always wanted to become a better writer. So why not start now and write about my passion. Here's a few of my
-							most recent articles related to software development, career growth, and diversity in tech. Enjoy!</div>
+							<div>I have always wanted to become a better writer. So why not start now and write about my passion. Here's a few
+								of my most recent articles related to software development, career growth, and diversity in tech. Enjoy!</div>
+						</div>
+					<div class="container-maid">
+						<div class="cards">
+						</div>
 					</div>
-					<ul class="actions">
+					<!-- <ul class="actions">
 						<li>
 							<a href="landing.html" class="button next">See more</a>
 						</li>
-					</ul>
+					</ul> -->
 				</div>
 			</section>
-			
+
 			<section>
 				<div class="center">
 					<strong>About me</strong>
@@ -264,7 +270,6 @@
 							<form method="get" action="images/Resume/WendyMaldonado.pdf">
 								<button type="submit" class="resume">Download resume</button>
 							</form>
-
 						</div>
 					</section>
 					<section>
@@ -289,20 +294,38 @@
 		<footer id="footer">
 			<div class="inner">
 				<ul class="copyright">
-					<li>&copy; Wendy Maldonado | &copy; wendyconditions.com 2017-2018</li>
+					<li>&copy; Wendy Maldonado | wendyconditions.com 2017-2018</li>
 				</ul>
 			</div>
 		</footer>
 	</div>
 
 	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
+	<!-- <script src="assets/js/jquery.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/cardStyle.js"></script>
+	
+	<!-- Medium post template -->
+	<script type="text/html" id="template">
+		<a href="#" class="card">
+			<span class="card-header" style="">
+				<span class="card-title">
+					<h3></h3>
+				</span>
+			</span>
+			<span class="card-summary">
+			</span>
+			<span class="card-meta">
+				Published: 
+			</span>
+		</a>
+    </script>
 </body>
 
 </html>
