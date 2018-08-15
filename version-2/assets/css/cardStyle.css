@@ -22,7 +22,7 @@
 	position: relative;
 	margin-bottom: 20px;
 	padding-bottom: 30px;
-	background: #fefff9;
+	background: #F8F8F8;
 	color: #363636;
 	text-decoration: none;
 	-moz-box-shadow: rgba(0, 0, 0, 0.19) 0 0 8px 0;
@@ -68,6 +68,10 @@
 	font-weight: 600
 }
 
+.card .card-summary:hover{
+	color: #8d82c4;
+}
+
 .card .card-header {
 	position: relative;
 	height: 175px;
@@ -87,7 +91,7 @@
 }
 
 .card .card-title {
-	background: rgba(157, 187, 63, 0.85);
+	background: rgba(141, 130, 196, 0.85);		
 	padding: 3.5% 0 2.5% 0;
 	color: white;
 	font-family: 'Roboto Condensed', sans-serif;
