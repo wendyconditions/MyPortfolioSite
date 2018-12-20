@@ -44,17 +44,20 @@
 		<!-- Menu -->
 		<nav id="menu">
 			<ul class="links">
-				<li>
-					<a href="index.html">Home</a>
+				<li id="home_nav">
+					<a href="#">Home</a>
 				</li>
-				<li>
-					<a href="landing.html">Landing</a>
+				<li id="projects_nav">
+					<a href="#">Recent Projects</a>
 				</li>
-				<li>
-					<a href="generic.html">Generic</a>
+				<li id="articles_nav">
+					<a href="#">Recent Articles</a>
 				</li>
-				<li>
-					<a href="elements.html">Elements</a>
+				<li id="about_nav">
+					<a href="#">About Me</a>
+				</li>
+				<li id="contact_nav">
+					<a href="#">Contact Me</a>
 				</li>
 			</ul>
 		</nav>
@@ -95,7 +98,7 @@
 
 		<!-- Main -->
 		<div id="main">
-			<section>
+			<section id="projects">
 				<div class="center">
 					<strong>Recent</strong>
 					<span>Projects</span>
@@ -105,46 +108,46 @@
 			<section id="one" class="tiles">
 				<article>
 					<span class="image">
-						<img src="images/pic01.jpg" alt="" />
+						<img src="images/main_images/bw_proj_main.jpg" alt="" />
 					</span>
 					<header class="major">
 						<h3>
-							<a href="landing.html" class="link">Aliquam</a>
+							<a href="landing.html" class="link">BlakWealth</a>
 						</h3>
-						<p>Ipsum dolor sit amet</p>
+						<p>BlakWealth Digital Media Platform</p>
 					</header>
 				</article>
 				<article>
 					<span class="image">
-						<img src="images/pic02.jpg" alt="" />
+						<img src="images/main_images/clapp_proj_main.jpg" alt="" />
 					</span>
 					<header class="major">
 						<h3>
-							<a href="landing.html" class="link">Tempus</a>
+							<a href="landing.html" class="link">Clapp</a>
 						</h3>
-						<p>feugiat amet tempus</p>
+						<p>Cover letter generator app</p>
 					</header>
 				</article>
 				<article>
 					<span class="image">
-						<img src="images/pic03.jpg" alt="" />
+						<img src="images/main_images/shoah_proj_main.jpg" alt="" />
 					</span>
 					<header class="major">
 						<h3>
-							<a href="landing.html" class="link">Magna</a>
+							<a href="landing.html" class="link">USC - Shoah Foundation</a>
 						</h3>
-						<p>Lorem etiam nullam</p>
+						<p>Digital Repository, Historical Digital Archive Platform</p>
 					</header>
 				</article>
 				<article>
 					<span class="image">
-						<img src="images/pic04.jpg" alt="" />
+						<img src="images/main_images/openmic_proj_main.jpg" alt="" />
 					</span>
 					<header class="major">
 						<h3>
-							<a href="landing.html" class="link">Ipsum</a>
+							<a href="landing.html" class="link">Open Mic Night Art Show</a>
 						</h3>
-						<p>Nisl sed aliquam</p>
+						<p>Front-End site promoting local artist</p>
 					</header>
 				</article>
 				<article>
@@ -171,7 +174,7 @@
 				</article>
 			</section>
 
-			<section>
+			<section id="articles"> 
 				<div class="center">
 					<strong>Recent articles</strong>
 				</div>
@@ -196,7 +199,7 @@
 				</div>
 			</section>
 
-			<section>
+			<section id="aboutme">
 				<div class="center">
 					<strong>About me</strong>
 				</div>
@@ -208,7 +211,7 @@
 					</header>
 					<div class="parent">
 						<div id="narrow">
-							<img src="images/selfie.jpg" class="img-circle" />
+							<img src="images/main_images/selfie.jpg" class="img-circle" />
 						</div>
 						<div id="wide">
 							<p>I am a Software Engineer and U.S. Veteran based in Los Angeles. I am currently working for the University of Southern
@@ -229,7 +232,7 @@
 		</div>
 
 		<!-- Contact -->
-		<section>
+		<section id="contactme">
 			<div class="center">
 				<strong>Contact Info</strong>
 			</div>
@@ -309,6 +312,7 @@
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/cardStyle.js"></script>
+	<script src="assets/js/customMain.js"></script>
 	
 	<!-- Medium post template -->
 	<script type="text/html" id="template">
