@@ -23,7 +23,7 @@
 	*     \_/\_/\___|_||_|\__,_| \_, \__\___/_||_|\__,_| |_|\__||_\___/_||_|/__(_)__\___/_|_|_|  
 	*                            |__/                                                            
 	*    I've been programming since the late 90's. You can take the pyro out of modern graphics, 
-	*    but you can't take the pyro out of a 90's kid.
+	*    but you can't take the pyro out of a 90's coder.
 	*/
 	</script>
 </head>
@@ -106,17 +106,18 @@
 			</section>
 			<!-- One -->
 			<section id="one" class="tiles">
-				<article>
+				<article id="showMessage">
 					<span class="image">
 						<img src="images/main_images/bw_proj_main.jpg" alt="" />
 					</span>
 					<header class="major">
 						<h3>
-							<a href="landing.html" class="link">BlakWealth</a>
+							BlakWealth
+							<!-- <a href="landing.html" class="link">BlakWealth</a> -->
 						</h3>
 						<p>BlakWealth Digital Media Platform</p>
 					</header>
-				</article>
+				</article id="showMessage">
 				<article>
 					<span class="image">
 						<img src="images/main_images/clapp_proj_main.jpg" alt="" />
@@ -128,7 +129,7 @@
 						<p>Cover letter generator app</p>
 					</header>
 				</article>
-				<article>
+				<article id="showMessage">
 					<span class="image">
 						<img src="images/main_images/shoah_proj_main.jpg" alt="" />
 					</span>
@@ -139,7 +140,7 @@
 						<p>Digital Repository, Historical Digital Archive Platform</p>
 					</header>
 				</article>
-				<article>
+				<article id="showMessage">
 					<span class="image">
 						<img src="images/main_images/openmic_proj_main.jpg" alt="" />
 					</span>
@@ -147,10 +148,10 @@
 						<h3>
 							<a href="landing.html" class="link">Open Mic Night Art Show</a>
 						</h3>
-						<p>Front-End site promoting local artist</p>
+						<p>Front-End website promoting local artist</p>
 					</header>
 				</article>
-				<article>
+				<!-- <article>
 					<span class="image">
 						<img src="images/pic05.jpg" alt="" />
 					</span>
@@ -171,7 +172,7 @@
 						</h3>
 						<p>Feugiat amet tempus</p>
 					</header>
-				</article>
+				</article> -->
 			</section>
 
 			<section id="articles"> 
@@ -217,8 +218,8 @@
 							<p>I am a Software Engineer and U.S. Veteran based in Los Angeles. I am currently working for the University of Southern
 								California building a web application to manage and interact with preserved testimonies of genocide survivors and
 								witnesses. There are currently more than 55,000 digital media records which are a part of the archive. I work heavily
-								with API’s, Angular, T-SQL, and C# on a daily basis. Professionally, I enjoy C# and I’m currently expanding my knowledge
-								of Unity (building small augmented reality games). Other interests include volunteering and inspiring a diverse tech
+								with API’s, Angular, T-SQL, and C# on a daily basis. Professionally, I enjoy backend programming, data analysis, and
+								secure coding. Other interests include volunteering and inspiring a diverse tech
 								community in LA, reading math books that I sometimes don’t understand, and zooming-in on cute dog photos.</p>
 						</div>
 					</div>
@@ -240,7 +241,7 @@
 		<section id="contact">
 			<div class="inner">
 				<section>
-					<form method="post" action="#">
+					<form method="post" action="https://formspree.io/wendymaldonado.la@gmail.com">
 						<div class="field half first">
 							<label for="name">Name</label>
 							<input type="text" name="name" id="name" />
@@ -255,7 +256,8 @@
 						</div>
 						<ul class="actions">
 							<li>
-								<input type="submit" value="Send Message" class="special" />
+								<!-- <input type="submit" value="Send Message" class="special" /> -->
+								<button type="submit" class="btn btn-default">Submit</button>
 							</li>
 							<li>
 								<input type="reset" value="Clear" />
@@ -296,10 +298,18 @@
 		<footer id="footer">
 			<div class="inner">
 				<ul class="copyright">
-					<li>&copy; Wendy Maldonado | wendyconditions.com 2017-2018</li>
+					<li>&copy; Wendy Maldonado | wendyconditions.com 2017-<span id="year"></span></li>
 				</ul>
 			</div>
 		</footer>
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+		<!-- Modal content -->
+			<div class="modal-content">
+			<span class="close">&times;</span>
+			<p>More info is coming soon!</p>
+			</div>
+	  </div>
 	</div>
 
 	<!-- Scripts -->
