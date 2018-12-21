@@ -31,12 +31,10 @@ $(function () {
 
     // modal
     var modal = $("#myModal");
-    var date = new Date().getDate();
     modal.hide();
 
     $(".showMessage").on("click", function(){
         modal.show();
-        $("#date").text(date);
         modal.on("click", ".close", function(){
             modal.hide();
         })
