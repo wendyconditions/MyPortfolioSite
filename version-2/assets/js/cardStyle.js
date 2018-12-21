@@ -46,7 +46,7 @@ function writeTemplate(data) {
 
     var date    = new Date(data.date),
     yr      = date.getFullYear(),
-    month   = date.getMonth() < 10 ? '0' + date.getMonth() : date.getMonth(),
+    month   = date.getMonth() + 1,
     day     = date.getDate()  < 10 ? '0' + date.getDate()  : date.getDate(),
     newDate = month + '-' + day + '-' + yr;
   

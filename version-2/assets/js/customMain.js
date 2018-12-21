@@ -1,9 +1,12 @@
 $(function () {
     getYear();
 
- 
-
-    
+    // init
+    function getYear(){
+        var date = new Date();
+        var year = date.getFullYear();
+        $("#year").text(year);
+    }
 
     // scrolling
     $("#projects_nav").on("click", function(){
@@ -26,17 +29,14 @@ $(function () {
         $("html, body").animate({ "scrollTop": position }, 1000);
     });
 
-    function getYear(){
-        var date = new Date();
-        var year = date.getFullYear();
-        $("#year").text(year);
-    }
-
+    // modal
     var modal = $("#myModal");
+    var date = new Date().getDate();
     modal.hide();
 
-    $("#bwTest").on("click", function(){
+    $(".showMessage").on("click", function(){
         modal.show();
+        $("#date").text(date);
         modal.on("click", ".close", function(){
             modal.hide();
         })

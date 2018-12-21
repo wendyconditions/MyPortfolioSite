@@ -17,6 +17,11 @@
 		text-align: center;
 	}
 
+	.showMessage:hover,
+  	.showMessage:focus {
+	cursor: pointer;
+  }
+
 	/* The Modal (background) */
 .modal {
 	color: #000;
