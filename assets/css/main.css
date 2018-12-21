@@ -4059,9 +4059,9 @@
 			border: 2px solid white;
 		}
 
-		#parent {
+		/* #parent {
 			display: flex;
-		  }
+		  } */
 		  #narrow {
 			float: left;
 			width: 35%;
@@ -4100,9 +4100,9 @@
 				margin-right: auto;
 				width: 25%;
 			}
-			#parent {
+			/* #parent {
 			display: flex;
-		  }
+		  } */
 
 		  #narrow {
 			width: 100%;
@@ -4125,9 +4125,9 @@
 				margin-right: auto;
 				width: 65%;
 			}
-			#parent {
+			/* #parent {
 			display: flex;
-		  }
+		  } */
 
 		  #narrow {
 			width: 100%;
@@ -4139,5 +4139,9 @@
 			width: 100%;
 			display: inline-block;
 			font-size: 1.3em;
+		  }
+
+		  #blog_text{
+			  font-size: 1.3em;
 		  }
 		}
