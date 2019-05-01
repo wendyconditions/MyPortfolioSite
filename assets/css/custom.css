@@ -1,0 +1,221 @@
+/* Custom */
+
+.mainlogo {
+    max-width: 60px;
+    height: auto;
+}
+
+ul li {
+    padding-left: 0px !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.showMessage:hover, .showMessage:focus {
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+
+.modal {
+    color: #000;
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 999;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* i think is mine */
+
+/* Type */
+
+body, input, select, textarea {
+    color: #ffffff;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 17pt;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    line-height: 1.65;
+}
+
+@media screen and (max-width: 1680px) {
+    body, input, select, textarea {
+        font-size: 14pt;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body, input, select, textarea {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body, input, select, textarea {
+        font-size: 11pt;
+    }
+}
+
+section.special, article.special {
+    text-align: center;
+}
+
+form>.actions {
+    margin: 2.5em 0 0 0 !important;
+}
+
+/* custom css wendyconditions */
+
+section#blog-section {
+    background: #fffafa;
+    color: #000;
+}
+
+section#blog-section h2 {
+    color: #000;
+}
+
+section#blog-section h2:after {
+    background-color: #000;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* #parent {
+			display: flex;
+		  } */
+
+#narrow {
+    float: left;
+    width: 35%;
+}
+
+#wide {
+    float: right;
+    width: calc(100% - 35%);
+}
+
+.resume {
+    font-size: 17px;
+    box-shadow: none;
+    text-transform: none;
+    padding: 0px 0px;
+    font-weight: normal;
+    letter-spacing: normal;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    border-bottom: dotted 1px;
+    height: 2.5em
+}
+
+button.resume:hover {
+    box-shadow: none;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select, textarea {
+    background: #fff;
+    color: #000;
+}
+
+/* tablet */
+
+@media(max-width: 768px) {
+    .img-circle {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    /* #parent {
+			display: flex;
+		  } */
+    #narrow {
+        width: 100%;
+        display: inline-block;
+    }
+    #wide {
+        padding-top: 15px;
+        width: 100%;
+        display: inline-block;
+    }
+    form>.actions {
+        margin: 2em 0 0 0 !important;
+    }
+}
+
+/* phone */
+
+@media(max-width: 414px) {
+    .img-circle {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+    }
+    /* #parent {
+			display: flex;
+		  } */
+    #narrow {
+        width: 100%;
+        display: inline-block;
+    }
+    #wide {
+        padding-top: 15px;
+        width: 100%;
+        display: inline-block;
+        font-size: 1.3em;
+    }
+    #blog_text {
+        font-size: 1.3em;
+    }
+}
+
+#aboutmecontent {
+    overflow: auto;
+    padding-bottom: 64px;
+}
